@@ -1,0 +1,198 @@
+@import url<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+</style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+:root {
+  --primary-color: #eec886c2;
+  --font-size: 30%;
+  --width-l: 1200px;
+  }
+header {
+  background-color: ;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;´
+
+  }
+
+ header {
+    position: relative;
+  }
+  
+img {
+    width: auto;
+  }
+h1 {
+   font-family: "Dancing Script", cursive, sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    color:#eec886c2;
+    font-size: 9vw;
+}
+
+h2 {
+  font-family: "Dancing script", cursive, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 3.8vw;
+  color: #a39d5c;
+}
+
+h3{
+  font-family: "Dancing script", cursive, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 3vw;
+  color: #d1ca78;
+}
+
+main p{
+  font-size: 1.4vw;
+  color: #3d3b22;
+  font-family: lato, sans-serif;
+}
+
+main section:nth-child(even) {
+  background-color: var(--primary-color);
+  color: white;
+  
+}
+
+nav {
+    background-color: var(--primary-color);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+ .width-l {
+      max-width: var(--width-l);
+      margin: 0 auto;
+    }
+    
+    ul {
+      list-style: none;
+    
+    }
+    
+    nav ul {
+      display: flex;
+      justify-content: space-around;
+      gap: 10vw;
+      
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: black;
+      font-weight: ;
+    }
+  nav a:hover {
+      border-bottom: 4px solid #ffffff4d; 
+      background-color: white;
+    }
+
+ .width-l {
+      max-width: var(--width-l);
+      margin: 0 auto;
+    }
+
+
+.flex-2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+.flex-2 > div {
+    width: 50%;
+ }
+      
+.flex-2 p {
+        font-size: 1.4rem;
+      }
+.grid-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+      
+.grid-1 div {
+        width: 100%;
+        align-content: space-around;
+      } 
+.grid h2 {
+  font-family: "Dancing sans-serif"
+  text-align: center;
+ 
+}
+
+ footer {
+        background-color: var(--primary-color);
+        padding: 2rem 0;
+        margin-top: 2rem;
+        color: #eec886c2; 
+      }
+      
+ .footer-grid {
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 2.5rem;
+      }
+      
+      .footer-grid div {
+        border-radius: 5px;
+      
+      }
+      footer h3 {
+        font-family: "Archivo Black", Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        color: rgb(103, 3, 80);
+      }
+      
+      .sociales {
+      display: flex;
+      justify-content: start;
+      gap: 1rem;
+      }
+      
+      .sociales img {
+        width: 50%;
+      }
+      
+      .section-text img {
+        width: 10%;
+      }
+      .Corporativa img {
+        width:5%;
+      }
+      
+      footer a {
+        color: rgb(103, 3, 80);
+        font-size: 1rem;
+      }
+      
+      footer p {
+        font-size: 1rem;
+        color: rgb(103, 3, 80);
+      
+      }
+      
+      footer a:hover {
+        background-color: white;
+        color: #ffffff4d;
+      }
+      
+        
+
+
